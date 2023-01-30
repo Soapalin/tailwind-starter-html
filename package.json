@@ -1,0 +1,21 @@
+{
+  "name": "html-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles.css -o src/styles.css",
+    "dev": "npm run build && live-server src --port=8080 --no-css-inject --wait=500",
+    "watch": "watch \"npm run build\" ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animated-tailwindcss": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.4",
+    "watch": "^1.0.2"
+  }
+}
