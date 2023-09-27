@@ -539,11 +539,11 @@ video {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mr-10 {
-  margin-right: 2.5rem;
-}
 .ml-10 {
   margin-left: 2.5rem;
+}
+.mr-10 {
+  margin-right: 2.5rem;
 }
 .ml-4 {
   margin-left: 1rem;
@@ -596,14 +596,14 @@ video {
 .w-9\/12 {
   width: 75%;
 }
-.w-11 {
-  width: 2.75rem;
-}
 .w-1 {
   width: 0.25rem;
 }
 .w-9 {
   width: 2.25rem;
+}
+.w-11 {
+  width: 2.75rem;
 }
 .w-screen {
   width: 100vw;
@@ -668,13 +668,13 @@ video {
 .rounded-lg {
   border-radius: 0.5rem;
 }
-.rounded-r-3xl {
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-}
 .rounded-l-3xl {
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
+}
+.rounded-r-3xl {
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
 }
 .rounded-r-lg {
   border-top-right-radius: 0.5rem;
@@ -692,11 +692,11 @@ video {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
 }
-.rounded-tl-3xl {
-  border-top-left-radius: 1.5rem;
-}
 .rounded-tr-3xl {
   border-top-right-radius: 1.5rem;
+}
+.rounded-tl-3xl {
+  border-top-left-radius: 1.5rem;
 }
 .rounded-tl-full {
   border-top-left-radius: 9999px;
@@ -743,6 +743,9 @@ video {
 .bg-lightBlue {
   --tw-bg-opacity: 1;
   background-color: rgb(162 210 255 / var(--tw-bg-opacity));
+}
+.bg-\[url\(\'\/galaxy\.png\'\)\] {
+  background-image: url('/galaxy.png');
 }
 .bg-cover {
   background-size: cover;
@@ -882,7 +885,44 @@ video {
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+@media (min-width: 768px) {
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:ml-24 {
+    margin-left: 6rem;
+  }
+
+  .md\:mr-24 {
+    margin-right: 6rem;
+  }
+
+  .md\:w-7\/12 {
+    width: 58.333333%;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+}
 @media (min-width: 1280px) {
+
+  .xl\:ml-52 {
+    margin-left: 13rem;
+  }
+
+  .xl\:mr-52 {
+    margin-right: 13rem;
+  }
 
   .xl\:h-1\/6 {
     height: 16.666667%;
